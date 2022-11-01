@@ -1,6 +1,0 @@
-[submodule "themes/puppet"]
-	path = themes/puppet
-	url = https://github.com/roninro/hugo-theme-puppet.git
-[submodule "themes/minima"]
-	path = themes/minima
-	url = https://github.com/mivinci/hugo-theme-minima.git
