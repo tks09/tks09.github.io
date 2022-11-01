@@ -1,7 +1,9 @@
 # The Docker image that will be used to build your app
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 # Functions that should be executed before the build script is run
-before_script: []
+before_script:
+  - git submodule init
+  - git submodule update
 pages:
   script:
     - hugo
