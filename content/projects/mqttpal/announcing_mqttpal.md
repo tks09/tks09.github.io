@@ -9,7 +9,6 @@ In the last years I worked consistently with MQTT in different projects, especia
 Additional to that I'm currently searching for a side project involving Rust, where I can try out different mechanisms and features of the Rust language as well as other technolgies, such as:
 
 - Cargo workspaces
-- Terminal UIs ([tui](https://github.com/fdehau/tui-rs))
 - [Tauri](https://tauri.app/)
 - [WASM](https://www.rust-lang.org/what/wasm) Export
 - [Svelte JS](https://svelte.dev/)
@@ -27,7 +26,6 @@ The project is currently planned to consist of 2 (maybe 3) internal libraries, a
   - broker
     - integrated broker
 - UI:
-  - TerminalUI: htop/top like GUI to publish/subscribe
   - WebServer: backend server with UI to collect statistics, publish/subscribe etc.
   - Tauri: Frontend-Only client including svelte.
 
