@@ -1,9 +1,4 @@
 ---
 title: "Blog"
+sort_by: "date"
 ---
-
-This is content.
-
-{{ for i in 1..10 }}
-test
-{{ endfor }}

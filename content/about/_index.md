@@ -1,6 +1,5 @@
 ---
 title: "Ei Gude, wie?"
-description: "Test"
 date: 2022-10-28T22:41:32+02:00
 draft: false
 ---

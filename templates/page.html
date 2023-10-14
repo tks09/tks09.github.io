@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>
+{{ page.title }}
+</h1>
+<p>
+{{ page.description }}
+</p>
+<p>
+{{ page.content | safe }}
+</p>
+<p>
+  written <small>({{ page.date | date(format=config.extra.date_format) }})
+</p>
+{% endblock %}
