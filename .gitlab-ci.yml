@@ -1,17 +1,20 @@
-# The Docker image that will be used to build your app
-image: registry.gitlab.com/pages/hugo/hugo_extended:latest
-# Functions that should be executed before the build script is run
-before_script:
-  - git submodule init
-  - git submodule update
+image: alpine:latest
+variables:
+  # This variable will ensure that the CI runner pulls in your theme from the submodule
+  GIT_SUBMODULE_STRATEGY: recursive
+
 pages:
   script:
-    - hugo
+    # Install the zola package from the alpine community repositories
+    - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
+    # Execute zola build
+    - zola build
+
   artifacts:
     paths:
-      # The folder that contains the files to be exposed at the Page URL
+      # Path of our artifacts
       - public
-  rules:
-    # This ensures that only pushes to the default branch will trigger
-    # a pages deploy
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
+  # This config will only publish changes that are pushed on the main branch
+  only:
+    - main
