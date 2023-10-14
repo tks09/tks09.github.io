@@ -1,7 +1,6 @@
 ---
 title: "Switchting from Hugo to Zola"
 date: 2023-10-14T16:15:25+02:00
-draft: true
 tags: ["web"]
 ---
 
