@@ -2,20 +2,20 @@
 
 {% block content %}
 <h1>
-{{ section.title }}
+  {{ section.title }}
 </h1>
-<p>
-{{ section.description }}
-</p>
-<p>
-{{ section.content | safe }}
-</p>
 <div>
-    {% for page in section.pages %}
-    <div>
+  {% for page in section.pages %}
+  <div class="postpreview">
+    <p>
       <large><a href="{{ page.permalink }}">{{ page.title }}</a></large><br>
+      {% if page.description %}<i>{{ page.description }}</i><br>{% endif %}
       <small>({{ page.date | date(format=config.extra.date_format) }})</small>
-    </div>
-    {% endfor %}
+    </p>
+  </div>
+  {% endfor %}
 </div>
+<p>
+  {{ section.content | safe }}
+</p>
 {% endblock %}

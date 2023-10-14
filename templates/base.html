@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {% block head %}
     <meta charset="UTF-8">
@@ -10,17 +11,64 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1em;
         }
-        .center-boundary {
-            max-width: 34em;
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+                color: #fff;
+            }
+
+            a {
+                color: #fff;
+            }
+        }
+
+        .center {
+            max-width: 50em;
             margin-left: auto;
             margin-right: auto;
         }
+        .topnav {
+            font-size: 1.25em;
+        }
+        #topnavleft {
+            float: left;
+        }
+        #topnavleft a {
+            margin-right: 1em;
+            text-decoration: none;
+        }
+        #topnavright {
+            text-align: right;
+            text-decoration: none;
+        }
+        #topnavright a {
+            margin-left: 1em;
+            text-decoration: none;
+        }
+        .postpreview {
+            margin-top: 1em;
+        }
     </style>
 </head>
+
 <body>
-    <div class="center-boundary">
-    {% block content %}
-    {% endblock %}
+    <div class="center">
+        <div>
+            <div class="topnav" id="topnavleft">
+                <a href="/" title="home">🏠</a>
+                <a href="/blog/" title="blog">🗞️</a>
+                <a href="/about/" title="about me">🙋‍♂️</a>
+            </div>
+            <div class="topnav" id="topnavright">
+                <a href="https://indieweb.social/@tsmt09" title="mastodon">🦣</a>
+                <a href="https://github.com/tsmt09" title="github">🐙</a>
+                <a href="https://gitlab.com/tsmt" title="github">🦊</a>
+            </div>
+        </div>
+        {% block content %}
+        {% endblock %}
     </div>
 </body>
+
 </html>

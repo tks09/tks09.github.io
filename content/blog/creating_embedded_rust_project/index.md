@@ -2,6 +2,8 @@
 title: "Babysteps with Embedded Rust and RPi Pico"
 date: 2023-03-19T12:33:23+01:00
 draft: false
+taxonomies:
+  tags: ["dev", "rust", "embedded"]
 ---
 
 At the moment, I'm working both with Raspberry Pi Picos in Embedded projects and Rust in System Software Projects. Today, I would like to test out the embedded capabilities of the Rust programming language and deploy some Rust embedded `#![no_std]` code to a [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html).
@@ -91,8 +93,8 @@ error: `#[panic_handler]` function required, but not found
 
 error: language item required, but not found: `eh_personality`
   |
-  = note: this can occur when a binary crate with `#![no_std]` is compiled for a target where `eh_personality` is defined in the standard library
-  = help: you may be able to compile for a target that doesn't need `eh_personality`, specify a target with `--target` or in `.cargo/config`
+  = note: this can occur when a binary crate with `#![no_std]` ...
+  = help: you may be able to compile for a target that doesn't ...
 
 error: could not compile `blink-rs` due to 3 previous errors
 ```
