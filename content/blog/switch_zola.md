@@ -1,6 +1,6 @@
 ---
 title: "Switchting from Hugo to Zola"
-date: 2023-10-14T15:58:25+02:00
+date: 2023-10-14T16:15:25+02:00
 draft: true
 tags: ["web"]
 ---
@@ -19,7 +19,8 @@ This is a living document, so you can read my todo list here:
 - [X] Blog Pages 
 - [X] GitLab Integration (yes, this page is hosted on [GitLab Pages](https://gitlab.com/tsmt/tobischmitt.net))
 - [ ] Taxonomies
-- [ ] Basic CSS
+- [ ] Top Navigation
+- [X] Basic CSS
 - [ ] RSS feeds
 
 ## Summary

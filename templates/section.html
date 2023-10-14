@@ -11,12 +11,11 @@
 {{ section.content | safe }}
 </p>
 <div>
-  <ul>
     {% for page in section.pages %}
-    <li>
-      <a href="{{ page.permalink }}">{{ page.title }} <small>({{ page.date | date(format=config.extra.date_format) }})</small></a>
-    </li>
+    <div>
+      <large><a href="{{ page.permalink }}">{{ page.title }}</a></large><br>
+      <small>({{ page.date | date(format=config.extra.date_format) }})</small>
+    </div>
     {% endfor %}
-  </ul>
 </div>
 {% endblock %}
