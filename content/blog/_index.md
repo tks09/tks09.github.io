@@ -1,4 +1,4 @@
 ---
-title: "brainfarts"
+title: "blog"
 sort_by: "date"
 ---

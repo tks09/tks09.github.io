@@ -4,9 +4,9 @@ date: 2022-10-28T22:41:32+02:00
 draft: false
 ---
 
-## Ei Gude, wie?
+## Info
 
-My name is Tobi, I'm in my 30s and live in mid-west germany, where I was also born. "Ei Gude, wie?" or "Gude" is a universal greeting in the area where I'm living. 
+My name is Tobi, I'm in my 30s and live in mid-west germany.
 
 At my day job, I write system software for a local company doing financal analyics. Earlier in C++, currently in Rust. Other than that I also freelance in the IoT industry in smaller projects, doing mostly C, C++ and Arduino firmware code. For fun, I [currently do some internet things](/about/now/).
 
