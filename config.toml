@@ -27,3 +27,6 @@ highlight_theme = "ayu-dark"
 [extra]
 # Put all your custom variables here
 date_format="%d.%m.%Y %H:%M"
+
+[slugify]
+paths = "off"
