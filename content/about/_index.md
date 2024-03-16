@@ -8,7 +8,7 @@ draft: false
 
 My name is Tobi, I'm in my 30s and live in mid-west germany.
 
-At my day job, I write system software for a local company doing financal analyics. Earlier in C++, currently in Rust. Other than that I also freelance in the IoT industry in smaller projects, doing mostly C, C++ and Arduino firmware code. For fun, I [currently do some internet things](/about/now/).
+At my day job, I write system software for a local company doing financal analyics. Earlier in C++, currently in Rust. For fun, I [currently do some internet things](/about/now/).
 
 In my free time I like to go cycling (especially Mountain- and Gravelbikes), row regularly on my Waterrower and sometimes play videogames.
 

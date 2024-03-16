@@ -4,12 +4,6 @@ date: 2023-10-14T20:01:15+02:00
 updated: 2023-10-14T21:30:00+02:00
 ---
 
-## Books
-Usually I read two books at a time. One novel and one non-fiction book. Sometimes I'm in mood for stories, sometimes I'm in mood for content.
-
-- Fiction: **Animal Farm** by George Orwell.
-- Non-Fiction: **Mein Hirn hat seinen eigenen Kopf** by Dong-Seon Chang. Translates to *my brain has it's own mind*. The book is about neuro science and often fun brain facts. It's not too scientific and I love it's writing style. It's actually pretty chill to read.
-
 ## Indieweb & basic internet technologies
 
 ### Indieweb
