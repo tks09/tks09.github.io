@@ -1,7 +1,6 @@
 ---
 title: "On screens and productivity"
 date: 2024-03-16T09:30:00+02:00
-draft: true
 taxonomies:
   tags: ["desk", "essentialism", "screens", "clutter", "stress"]
 ---
