@@ -13,7 +13,7 @@ updated: 2023-10-14T22:00:00+02:00
 ## Blogs
 
 ### General
-- [Jason Fried]](https://world.hey.com/jason) - I like Jasons concepts of how to structure companies and workload. He funded the company behind basecamp together with David Heinemeier Hansson.
+- [Jason Fried](https://world.hey.com/jason) - I like Jasons concepts of how to structure companies and workload. He funded the company behind basecamp together with David Heinemeier Hansson.
 - [Ben Kuhn](https://www.benkuhn.net/) - I had an interview with Ben when he was the CTO of [wave](https://wave.com), a finance startup from Senegal. He's a really great and respectful guy and I really appreciate the hour talk that we had. Since then, I regularly check his blog.
 
 ### Tech
