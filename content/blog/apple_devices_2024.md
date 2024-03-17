@@ -1,9 +1,9 @@
 ---
-title: "On Apple and consumer electronics"
+title: "On Apple devices"
 date: 2024-03-17T11:17:00+02:00
 draft: true
 taxonomies:
-tags: ["phone", "consumerism", "sustainability"]
+tags: ["phone", "consumerism", "sustainability", "apple", "repair"]
 ---
 
 In the last several months, my iPhone 11 battery got worse and worse. I'm not really mad for that, because I think that a reduced battery after 4,5 years constant usage is perfectly fine. Before I bought that phone in late 2019, I was living for a long time in the Android/Windows world. Back then, I was not particularly unhappy, but I wanted to test something different and also wanted something that "just works".
