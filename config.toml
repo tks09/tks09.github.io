@@ -15,7 +15,7 @@ taxonomies = [
     {name = "categories", paginate_by = 5},
 ]
 
-generate_feed = true
+generate_feeds = true
 
 
 [markdown]
