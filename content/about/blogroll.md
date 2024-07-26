@@ -1,7 +1,7 @@
 ---
 title: "Blogroll"
 date: 2023-10-14T22:00:00+02:00
-updated: 2023-10-14T22:00:00+02:00
+updated: 2024-07-26T22:00:00+02:00
 ---
 
 ## Articles
@@ -9,6 +9,8 @@ updated: 2023-10-14T22:00:00+02:00
 - [To listen well, get curious](https://www.benkuhn.net/listen/)
 - [Attention is your scarcest resource](https://www.benkuhn.net/attention/)
 - [You don't need a modal window](https://youdontneedamodalwindow.dev/)
+- [Radical simplicity in technology](https://www.radicalsimpli.city/)
+- [Just use Postgres for everything](https://www.amazingcto.com/postgres-for-everything/)
 
 ## Blogs
 
