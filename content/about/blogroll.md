@@ -12,7 +12,7 @@ updated: 2024-08-23T22:00:00+02:00
 - [Radical simplicity in technology](https://www.radicalsimpli.city/)
 - [Just use Postgres for everything](https://www.amazingcto.com/postgres-for-everything/)
 - [Recession and crisis in the IT industry](https://trojanczyk.eu/crisis-in-the-it-industry/)
-- [https://ludic.mataroa.blog/blog/quitting-my-job-for-the-way-of-pain/](https://ludic.mataroa.blog/blog/quitting-my-job-for-the-way-of-pain/)
+- [Quitting My Job For The Way Of Pain](https://ludic.mataroa.blog/blog/quitting-my-job-for-the-way-of-pain/)
 
 ## Blogs
 
