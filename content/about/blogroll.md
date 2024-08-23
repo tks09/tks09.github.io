@@ -11,6 +11,8 @@ updated: 2024-07-26T22:00:00+02:00
 - [You don't need a modal window](https://youdontneedamodalwindow.dev/)
 - [Radical simplicity in technology](https://www.radicalsimpli.city/)
 - [Just use Postgres for everything](https://www.amazingcto.com/postgres-for-everything/)
+- [Recession and crisis in the IT industry](https://trojanczyk.eu/crisis-in-the-it-industry/)
+- [https://ludic.mataroa.blog/blog/quitting-my-job-for-the-way-of-pain/](https://ludic.mataroa.blog/blog/quitting-my-job-for-the-way-of-pain/)
 
 ## Blogs
 
@@ -25,3 +27,4 @@ updated: 2024-07-26T22:00:00+02:00
 - [fettblog.eu](https://oida.dev) - I'm confused you can use fettblog.eu and oida.dev. Wondering with how many Domains Stefan can come up.
 - [Dirkjan Ochtman](https://dirkjan.ochtman.nl) - Creator of Askama Templating engine
 - [Armin Ronacher](https://lucumr.pocoo.org/) - As well as Ben, Armin is a techie under the "general" section as well, because I absolutely love reading his takes on life and work.
+- [Nikhil Suresh](https://ludic.mataroa.blog/) - Really cool writing style and great tech articles such as "I Will Fucking Piledrive You If You Mention AI Again"
