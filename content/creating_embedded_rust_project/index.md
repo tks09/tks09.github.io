@@ -2,8 +2,7 @@
 title: "Babysteps with Embedded Rust and RPi Pico"
 date: 2023-03-19T12:33:23+01:00
 draft: false
-taxonomies:
-  tags: ["dev", "rust", "embedded"]
+tags: ["dev", "rust", "embedded"]
 ---
 
 At the moment, I'm working both with Raspberry Pi Picos in Embedded projects and Rust in System Software Projects. Today, I would like to test out the embedded capabilities of the Rust programming language and deploy some Rust embedded `#![no_std]` code to a [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html).

@@ -1,0 +1,6 @@
+{{/* list all root-level posts; the heading comes from content/_index.md */}}
+<div class="divide-y divide-neutral-300 overflow-hidden dark:divide-neutral-600">
+  {{ range where .Site.RegularPages "Type" "page" }}
+    {{ partial "article-link.html" . }}
+  {{ end }}
+</div>

@@ -3,8 +3,7 @@ title: "Debugging RPi Pico W with Picoprobe and GDB"
 date: 2023-03-18T14:10:16+01:00
 draft: false
 description: Learn how to debug a Raspberry Pi Pico by using another Raspberry Pi Pico and GDB.
-taxonomies:
-  tags: ["dev", "embedded", "rpi", "pico", "gdb"]
+tags: ["dev", "embedded", "rpi", "pico", "gdb"]
 ---
 
 Did you ever wonder how to debug a microcontroller? With a Raspberry Pi Pico there's a simple solution: **Use another Raspberry Pi Pico** 😉!

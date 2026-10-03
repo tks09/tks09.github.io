@@ -1,8 +1,7 @@
 ---
 title: "Bashify your DevOps"
 date: 2025-01-02T16:45:00+02:00
-taxonomies:
-  tags: ["complexity", "homelab", "homeautomation"]
+tags: ["complexity", "homelab", "homeautomation"]
 ---
 
 In the quest for efficient homelab maintenance, I found myself navigating a maze of automation tools, from Ansible to Chef, each promising streamlined management and ease of use. However, what I encountered instead were frequent headaches and endless debug sessions, particularly with Ansible, which seemed to thrive on Python dependency issues that often derailed my efforts. Frustrated by the complexity and overhead of these solutions for my relatively simple local setup, I decided to take matters into my own hands. This led me to the realization that sometimes, the best approach is to strip away the layers of abstraction and craft a custom solution tailored to my needs—enter my own bash script system. In this blog post, I’ll share my journey from convoluted automation frameworks to the simplicity and effectiveness of scripting, and how it transformed my homelab experience.

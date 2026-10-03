@@ -1,8 +1,7 @@
 ---
 title: "Idleness"
 date: 2024-03-15T14:18:00+02:00
-taxonomies:
-  tags: ["mental health", "ai", "work", "stress"]
+tags: ["mental health", "ai", "work", "stress"]
 ---
 
 *disclaimer*: 

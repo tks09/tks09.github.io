@@ -3,8 +3,7 @@ title: "Essentialism, Minimalism and Capitalism"
 description: "Navigate Essentialism and Minimalism, exploring their impact on lifestyle, philosophy, and the nuances of capitalism. A critical examination."
 date: 2023-10-17T15:00:00+02:00
 draft: false
-taxonomies:
-  tags: ["minimalism", "essentialism", "asceticism"]
+tags: ["minimalism", "essentialism", "asceticism"]
 ---
 
 In the last years I read a lot about the concepts of essentialism and minimalism and somehow identify with the ideas. But I would like to answer the question for me if I'm a minimalist or essentialist. For a while I'm wondering in how far both concepts can be distinguished. I have my on thoughts on it on how to do that, but I would like to check in this blog entry if I'm right or wrong about it. The generalized statement of both is pretty much the same:

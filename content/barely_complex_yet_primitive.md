@@ -1,8 +1,7 @@
 ---
 title: "Barely complex enough, yet as primitive as possible"
 date: 2023-08-22T23:14:53+02:00
-taxonomies:
-  tags: ["gudesoftware", "dev"]
+tags: ["gudesoftware", "dev"]
 ---
 
 This will be the first post for an ongoing series I want to write on what makes a software well designed or not. Of course, I'm clear that this is probably one of 1203901831 articles of this kind in the internet. But as everything in this blog, this is also just about writing things down which helps me personally to find my own opinion to those things.

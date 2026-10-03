@@ -1,8 +1,7 @@
 ---
 title: "Radical reduction - my homeautomation journey"
 date: 2024-08-02T18:00:00+02:00
-taxonomies:
-  tags: ["mental health", "homeautomation"]
+tags: ["mental health", "homeautomation"]
 ---
 
 For some years, I have a homeautomation running in my apartment. I did not extend it over time by a lot, but I like to have reliable, low maintenance services, especially about temperature regulation and lighting. This is a story of radical reduction. I basically went from left to right in 5 hours (_there are zoom-in pictures in the following article_):

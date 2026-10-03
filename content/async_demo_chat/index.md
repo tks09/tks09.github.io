@@ -1,15 +1,14 @@
 ---
 title: "Chat for my async-rust demo"
 date: 2024-07-26T22:13:00+02:00
-taxonomies:
-  tags: ["rust", "async", "code"]
+tags: ["rust", "async", "code"]
 ---
 
 Today I had the idea to extend my [async rust webserver demo](https://github.com/tsmt09/tokio-web-demo) with an additional feature of a chat. In this small post I want to discuss why I think a chat functionality is a useful showcase for a rust webserver, but also show how I did implement it, since it's a very easy feature to develop using the tokio runtime.
 
 You can easily try it out on your machine by downloading the `docker-compose.yaml` ([right click + save](https://raw.githubusercontent.com/tsmt09/tokio-web-demo/main/docker-compose.yaml)), store it in a folder called `tokio-web-demo` and typing `docker compose up` in your terminal. Make sure you navigate to your created folder first. You can find the webserver at `http://localhost:8123`.
 
-{{ video(src="2024-07-26_chat.webm", width="100%", height="100%", autoplay="true", loop="true") }}
+{{< video src="2024-07-26_chat.webm" width="100%" height="100%" autoplay="true" loop="true" >}}
 
 ## Why
 

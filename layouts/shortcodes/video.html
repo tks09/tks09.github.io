@@ -1,0 +1,11 @@
+<video
+  src="{{ .Get "src" }}"
+  width="{{ .Get "width" }}"
+  height="{{ .Get "height" }}"
+  {{ if .Get "controls" }}controls{{ end }}
+  {{ if .Get "autoplay" }}autoplay{{ end }}
+  {{ if .Get "loop" }}loop{{ end }}
+  {{ if .Get "muted" }}muted{{ end }}
+>
+  Your browser does not support the video tag.
+</video>

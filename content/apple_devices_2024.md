@@ -1,7 +1,6 @@
 ---
 title: "On Apple devices"
 date: 2024-03-17T11:17:00+02:00
-taxonomies:
 tags: ["phone", "consumerism", "sustainability", "apple", "repair"]
 ---
 

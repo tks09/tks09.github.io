@@ -1,0 +1,91 @@
+baseURL = "https://koenig.diy/"
+title = ""
+locale = "en"
+timeZone = "Europe/Berlin"
+
+# keep underscores in URLs (e.g. /bashify_devops/)
+disablePathToLower = true
+
+[taxonomies]
+tag = "tags"
+
+[pagination]
+pagerSize = 5
+
+theme = "github.com/canstand/compost"
+enableEmoji = true
+enableRobotsTXT = true
+
+# required by the compost theme (Tailwind CSS build)
+[build]
+  _merge = 'deep'
+
+[markup]
+  _merge = 'deep'
+
+[minify]
+  _merge = 'deep'
+
+[module]
+[[module.mounts]]
+  source = 'assets'
+  target = 'assets'
+[[module.mounts]]
+  source = 'hugo_stats.json'
+  target = 'assets/notwatching/hugo_stats.json'
+  disableWatch = true
+[[module.imports]]
+  path = 'github.com/canstand/compost'
+
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
+[mediaTypes."application/atom+xml"]
+suffixes = ["xml"]
+
+[outputFormats.atom]
+mediaType = "application/atom+xml"
+baseName = "atom"
+isPlainText = false
+rel = "alternate"
+
+[outputs]
+home = ["html", "atom"]
+section = ["html"]
+taxonomy = ["html"]
+term = ["html"]
+
+[params]
+logo = ""
+colorScheme = "auto"
+
+[params.homepage]
+  showRecent = true
+
+[params.article]
+  dateFormat = "02.01.2006"
+  showReadingTime = false
+  showTOC = false
+
+[params.list]
+  showSummary = false
+
+[params.author]
+  name = "Tobi König"
+  links = [
+    { github = "https://github.com/tks09" },
+  ]
+
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+[[menu.main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30

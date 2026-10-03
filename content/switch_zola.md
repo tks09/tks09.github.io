@@ -2,8 +2,7 @@
 title: "Switching from Hugo to Zola"
 date: 2023-10-14T16:15:25+02:00
 updated: 2023-10-14T22:15:00+02:00
-taxonomies:
-  tags: ["web", "dev"]
+tags: ["web", "dev"]
 ---
 
 ## General
